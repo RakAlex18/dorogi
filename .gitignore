@@ -11,3 +11,4 @@ npm-debug.log
 yarn-error.log
 .env
 composer.lock
+/public/fontawesome-free-5.4.1-web
