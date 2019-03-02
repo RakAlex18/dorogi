@@ -11,7 +11,7 @@
         <div class="carousel-inner">
             <!-- Контейнер для слайдов -->
             <div class="carousel-item active">
-                <img src="{{ asset ('mg/Содержание зима.jpg') }}" alt="Очистка от снега">
+                <img src="{{ asset ('img/Содержание зима.jpg') }}" alt="Очистка от снега">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Зимнее содержание дорог</h5>
                     <p>Очистка от снега</p>
