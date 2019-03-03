@@ -79,6 +79,8 @@
         </div>
     </div>
 </div>
+
+
 @include('front.partials.nav_top')
 @include('front.partials.slider')
 @include('front.partials.congratulations')
