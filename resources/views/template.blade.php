@@ -79,12 +79,6 @@
         </div>
     </div>
 </div>
-
-
 @include('front.partials.nav_top')
-@include('front.partials.slider')
-@include('front.partials.congratulations')
-@include('front.partials.big_menu')
-@yield('last_news')
-@include('front.partials.newsSite')
+@yield('content')
 @include('front.partials.footer')

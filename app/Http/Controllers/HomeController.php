@@ -15,4 +15,10 @@ $last_news=Publication::orderBy('id', 'desc')->limit(3)->get();
 //dd($last_news);
         return view('front.main-page', compact('last_news'));
     }
+    public function news(){
+       $news=Publication::all();
+
+//dd($news->title);
+        return view('front.news-page', compact('news'));
+    }
 }

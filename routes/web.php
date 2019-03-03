@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'HomeController@index')->name('main.page');
+Route::get('/news', 'HomeController@news')->name('news.page');

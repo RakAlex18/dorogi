@@ -1,9 +1,12 @@
 @extends('template');
 
+@section('content')
+
+@include('front.partials.slider');
+@include('front.partials.congratulations');
+@include('front.partials.big_menu');
 
 
-
-@section('last_news')
     <section id="news" class="container news">
         <div class="row">
             <div class="col-12">
@@ -28,4 +31,7 @@
                 @endforeach
         </div>
     </section>
+
+@include('front.partials.newsSite')
+
 @endsection
