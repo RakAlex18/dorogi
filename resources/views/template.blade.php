@@ -27,7 +27,7 @@
             <div class="col-lg-3 col-sm-3 offset-lg-2 col-auto">
                 <ul class="nav registr">
                     <li class="nav-item registr__item">
-                        <a class="nav-link active" href="registration.php">Регистрация</a>
+                        <a class="nav-link active" href="{{ route('home') }}">Регистрация</a>
                     </li>
                     <li class="nav-item registr__item">
                         <!-- КНОПКА ВОЙТИ -> Button trigger modal -->

@@ -1,10 +1,10 @@
-@extends('template');
+@extends('template')
 
 @section('content')
 
-@include('front.partials.slider');
-@include('front.partials.congratulations');
-@include('front.partials.big_menu');
+@include('front.partials.slider')
+@include('front.partials.congratulations')
+@include('front.partials.big_menu')
 
 
     <section id="news" class="container news">
@@ -30,6 +30,7 @@
             </div>
                 @endforeach
         </div>
+
     </section>
 
 @include('front.partials.newsSite')

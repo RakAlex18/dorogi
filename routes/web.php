@@ -11,5 +11,9 @@
 |
 */
 
-Route::get('/', 'HomeController@index')->name('main.page');
-Route::get('/news', 'HomeController@news')->name('news.page');
+Route::get('/', 'MainController@index')->name('main.page');
+Route::get('/news', 'MainController@news')->name('news.page');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
