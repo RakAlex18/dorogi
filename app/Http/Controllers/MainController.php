@@ -13,7 +13,8 @@ class MainController extends Controller
     }
     public function news(){
         $news=Publication::all();
-//dd($news->title);
+
+     //   dd($news);
         return view('front.news-page', compact('news'));
     }
 }

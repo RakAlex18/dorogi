@@ -24,7 +24,7 @@
                         </div>
                     @endforeach
                 </div>
-                {{ $news->links() }}
+                {{--{{ $news->links() }}--}}
             </div>
         </div>
     </section>
